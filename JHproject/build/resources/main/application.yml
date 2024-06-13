@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/jh_db?useUnicode=true&serverTimezone=Asia/Seoul
+    username: kittyjh
+    password: Hong2001!

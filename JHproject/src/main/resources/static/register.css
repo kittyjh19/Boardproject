@@ -1,0 +1,65 @@
+/* 기본적인 마진과 패딩 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 바디 스타일링 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+
+
+
+/* 폼 컨테이너 스타일링 */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+/* 폼 요소 스타일링 */
+form input[type="text"],
+form input[type="password"] {
+    width: calc(100% - 22px); /* 패딩과 테두리에 맞게 너비 조정 */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* 제출 버튼 스타일링 */
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #f18181;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ae4949;
+}
+
+/* 라벨 스타일링 */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
